@@ -44,4 +44,4 @@ if btn:
             success_msg.empty()
         st.write(response)
     except:
-        st.warning("Sorry! Video Notes for this video cannot be generated")
+        st.warning("Sorry! Notes for this video cannot be generated")
