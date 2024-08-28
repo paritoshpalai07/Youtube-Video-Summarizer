@@ -23,7 +23,7 @@ btn = st.button("Get Notes!")
 if btn:
     try:
         vid_id = get_video_id(url)
-        transcript = YouTubeTranscriptApi.get_transcript(vid_id, languages=['en','hi']) 
+        transcript = YouTubeTranscriptApi.get_transcript(vid_id) 
         success_msg =  st.success("Hang tight! Your notes are being crafted with the finest virtual quill and ink.")
     
         summary = ""
